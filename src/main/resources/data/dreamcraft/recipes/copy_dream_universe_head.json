@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_block"
+    },
+    "b": {
+      "item": "dreamcraft:dream_universe_head_copy_template"
+    },
+    "c": {
+      "item": "minecraft:diamond_block"
+    },
+    "d": {
+      "item": "dreamcraft:dream_universe_head"
+    },
+    "e": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "dreamcraft:dream_universe_head",
+    "count": 2
+  }
+}

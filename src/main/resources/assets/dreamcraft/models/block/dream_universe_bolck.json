@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dreamcraft:block/yu_ma_kuai_",
+    "up": "dreamcraft:block/yu_ma_kuai_",
+    "north": "dreamcraft:block/yu_ma_kuai_",
+    "east": "dreamcraft:block/yu_ma_kuai_",
+    "south": "dreamcraft:block/yu_ma_kuai_",
+    "west": "dreamcraft:block/yu_ma_kuai_",
+    "particle": "dreamcraft:block/yu_ma_kuai_"
+  },
+  "render_type": "solid"
+}

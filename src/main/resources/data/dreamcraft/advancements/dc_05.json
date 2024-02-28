@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "dreamcraft:dream_universe_bolck"
+    },
+    "title": "一组宇妈块!",
+    "description": "富佬!带带我!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dc_05": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dreamcraft:dream_universe_bolck"
+            ],
+            "count": {
+              "min": 64,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4000
+  },
+  "parent": "dreamcraft:dc_04"
+}

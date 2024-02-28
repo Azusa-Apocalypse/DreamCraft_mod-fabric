@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "一组宇妈块!",
+    "achievementDescription": "富佬!带带我!",
+    "achievementIcon": {
+      "value": "CUSTOM:DreamUniverseBolck"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 4000,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:DC04"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"32\" y=\"16\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:DreamUniverseBolck</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "CUSTOM:DreamUniverseHeadCopyTemplate"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "CUSTOM:DreamUniverseHead"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DreamUniverseHead"
+    },
+    "name": "copy_dream_universe_head",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "咕咕咕",
+    "icon": "gugugu.png",
+    "color": {
+      "value": -62105,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "Gugugu_1"
+    }
+  }
+}

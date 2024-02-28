@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dreamcraft:item/debug_sword"
+  }
+}

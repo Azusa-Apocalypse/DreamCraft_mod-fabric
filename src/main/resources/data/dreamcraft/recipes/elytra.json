@@ -1,0 +1,29 @@
+{
+    "type":"crafting_shaped",
+    "pattern":[
+        "BAB",
+        "BCB",
+        "EDE"
+    ],
+    "key":{
+        "A":{
+            "item":"minecraft:dragon_head"
+        },
+        "C":{
+            "item":"minecraft:nether_star"
+        },
+        "B":{
+            "item":"minecraft:phantom_membrane"
+        },
+        "D":{
+            "item": "minecraft:ender_eye"
+        },
+        "E":{
+            "item": "minecraft:feather"
+        }
+    },
+    "result":{
+        "item":"minecraft:elytra",
+        "count": 1
+    }
+}

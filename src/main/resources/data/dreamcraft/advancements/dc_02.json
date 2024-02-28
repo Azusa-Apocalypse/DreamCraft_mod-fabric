@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "dreamcraft:dream_universe_head_copy_template"
+    },
+    "title": "奇怪的模板",
+    "description": "获取一个晓宇头复制模板",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dc_02": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dreamcraft:dream_universe_head_copy_template"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dreamcraft:dc_01"
+}

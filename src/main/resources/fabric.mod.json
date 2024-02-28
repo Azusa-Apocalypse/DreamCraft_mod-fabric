@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "dreamcraft",
+  "version": "0.0.9",
+  "name": "DreamCraft",
+  "description": "一个低创的mod，不出意外是能玩的程度，仅供星梦工艺内部玩耍使用",
+  "authors": [
+    "Azusa_Apocalypse"
+  ],
+  "contact": {
+    "homepage": "https://www.dreamcraft.com.cn",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.com.dreamcraft.www.DreamcraftMod"
+    ],
+    "client": [
+      "cn.com.dreamcraft.www.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "dreamcraft.mixins.json"
+  ]
+}

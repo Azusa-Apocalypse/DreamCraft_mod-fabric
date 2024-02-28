@@ -1,0 +1,15 @@
+{
+    "type":"crafting_shapeless",
+    "ingredients": [
+        {
+            "item":"minecraft:honeycomb"
+        },
+        {
+            "item":"minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "item": "minecraft:honey_bottle",
+        "count": 1
+    }
+}

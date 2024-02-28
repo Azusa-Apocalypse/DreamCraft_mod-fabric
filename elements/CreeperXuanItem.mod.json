@@ -1,0 +1,57 @@
+{
+  "_fv": 57,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldlemon",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "泠桓怕的黄金柠檬",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:SpecialItems"
+    },
+    "stackSize": 64,
+    "enchantability": 30,
+    "useDuration": 32,
+    "toolType": 10.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 10.0,
+    "specialInformation": {
+      "fixedValue": [
+        "mod贴图贡献者Crepper_Xuan的专属物品",
+        "金黄色的柠檬，到底是酸是甜呢?",
+        "或许只有泠桓怕自己知道吧~"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "isFood": true,
+    "nutritionalValue": 20,
+    "saturation": 20.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

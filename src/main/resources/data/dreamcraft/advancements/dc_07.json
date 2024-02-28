@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "dreamcraft:creeper_xuan_block"
+    },
+    "title": "怕酱块",
+    "description": "苦力怕精华所凝结成块",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dc_07": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dreamcraft:creeper_xuan_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dreamcraft:come_to_dream_craft"
+}

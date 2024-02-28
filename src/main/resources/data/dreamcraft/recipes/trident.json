@@ -1,0 +1,23 @@
+{
+    "type":"crafting_shaped",
+    "pattern":[
+        "BCB",
+        " A ",
+        " A "
+    ],
+    "key":{
+        "A":{
+            "item":"minecraft:echo_shard"
+        },
+        "C":{
+            "item":"minecraft:heart_of_the_sea"
+        },
+        "B":{
+            "item":"minecraft:diamond"
+        }
+    },
+    "result":{
+        "item":"minecraft:trident",
+        "count": 1
+    }
+}

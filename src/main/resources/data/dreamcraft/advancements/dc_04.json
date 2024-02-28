@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "dreamcraft:dream_universe_bolck"
+    },
+    "title": "宇妈块!",
+    "description": "你得到了宇妈块!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dc_04": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dreamcraft:dream_universe_bolck"
+            ],
+            "count": {
+              "min": 10,
+              "max": 63
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dreamcraft:come_to_dream_craft"
+}

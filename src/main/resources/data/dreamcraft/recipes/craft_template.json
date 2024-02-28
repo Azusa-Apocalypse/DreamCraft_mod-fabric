@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dreamcraft:xc_head"
+    },
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "c": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "result": {
+    "item": "dreamcraft:dream_universe_head_copy_template",
+    "count": 1
+  }
+}

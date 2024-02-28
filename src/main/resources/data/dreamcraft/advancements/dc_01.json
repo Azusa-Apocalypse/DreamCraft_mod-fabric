@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "dreamcraft:xc_head"
+    },
+    "title": "小初的头?",
+    "description": "虽然很奇怪，但是牧师村民可以把腐肉转化成小初的头",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dc_01": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dreamcraft:xc_head"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dreamcraft:come_to_dream_craft"
+}

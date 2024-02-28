@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "dreamcraft:a_bottle_of_air"
+    },
+    "b": {
+      "item": "dreamcraft:creeper_xuan_block"
+    },
+    "c": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "dreamcraft:azusa_head",
+    "count": 1
+  }
+}

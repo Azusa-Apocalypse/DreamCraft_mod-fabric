@@ -1,0 +1,22 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "dreamcraft:the_dream_craft"
+    },
+    "title": "DreamCraft·星梦工艺",
+    "description": "一个数据包/材质包转化为mod的练手低创作品",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "come_to_dream_craft": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}

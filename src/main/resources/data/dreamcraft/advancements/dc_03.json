@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "dreamcraft:dream_universe_head"
+    },
+    "title": "晓宇头",
+    "description": "你获得了晓宇的头!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dc_03": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dreamcraft:dream_universe_head"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3000
+  },
+  "parent": "dreamcraft:come_to_dream_craft"
+}

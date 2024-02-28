@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "dreamcraft:azusa_head"
+    },
+    "title": "筱梓头",
+    "description": "造价昂贵的头,吃下去试试吧,应该不会出事的...对吧?",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dc_08": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dreamcraft:azusa_head"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dreamcraft:dc_07"
+}

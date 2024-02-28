@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.com.dreamcraft.www.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"DreamcraftModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
